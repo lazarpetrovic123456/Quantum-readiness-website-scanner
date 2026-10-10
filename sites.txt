@@ -1,0 +1,29 @@
+# One website per line. Lines starting with # are ignored.
+# Big tech
+google.com
+cloudflare.com
+github.com
+microsoft.com
+apple.com
+amazon.co.uk
+# UK banks
+hsbc.co.uk
+barclays.co.uk
+lloydsbank.com
+natwest.com
+santander.co.uk
+monzo.com
+revolut.com
+# Investment banks
+goldmansachs.com
+jpmorgan.com
+morganstanley.com
+# Payments
+stripe.com
+paypal.com
+visa.co.uk
+# Government and public services
+gov.uk
+nhs.uk
+# Universities
+warwick.ac.uk

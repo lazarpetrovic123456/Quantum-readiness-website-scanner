@@ -1,0 +1,23 @@
+site,verdict,tls_version,key_exchange,certificate,note
+google.com,QUANTUM-SAFE,TLS 1.3,X25519MLKEM768 (post-quantum hybrid),ECDSA (secp256r1),
+cloudflare.com,QUANTUM-SAFE,TLS 1.3,X25519MLKEM768 (post-quantum hybrid),ECDSA (secp256r1),
+github.com,AT RISK,TLS 1.3,X25519 (classical),ECDSA (secp256r1),
+microsoft.com,ERROR,,,,server sent TLS alert 47
+apple.com,QUANTUM-SAFE,TLS 1.3,X25519MLKEM768 (post-quantum hybrid),ECDSA (secp256r1),
+amazon.co.uk,AT RISK,TLS 1.3,X25519 (classical),RSA-2048,
+hsbc.co.uk,QUANTUM-SAFE,TLS 1.3,X25519MLKEM768 (post-quantum hybrid),RSA-2048,
+barclays.co.uk,QUANTUM-SAFE,TLS 1.3,X25519MLKEM768 (post-quantum hybrid),RSA-2048,
+lloydsbank.com,AT RISK,TLS 1.3,X25519 (classical),RSA-2048,
+natwest.com,ERROR,,,,server sent TLS alert 47
+santander.co.uk,AT RISK (old TLS 1.2),TLS 1.2,classical (TLS 1.2 ECDHE/RSA),RSA-2048,
+monzo.com,QUANTUM-SAFE,TLS 1.3,X25519MLKEM768 (post-quantum hybrid),RSA-2048,
+revolut.com,QUANTUM-SAFE,TLS 1.3,X25519MLKEM768 (post-quantum hybrid),ECDSA (secp256r1),
+goldmansachs.com,QUANTUM-SAFE,TLS 1.3,X25519MLKEM768 (post-quantum hybrid),ECDSA (secp256r1),
+jpmorgan.com,AT RISK,TLS 1.3,X25519 (classical),RSA-2048,
+morganstanley.com,AT RISK (old TLS 1.2),TLS 1.2,classical (TLS 1.2 ECDHE/RSA),RSA-2048,
+stripe.com,AT RISK,TLS 1.3,X25519 (classical),ECDSA (secp256r1),
+paypal.com,QUANTUM-SAFE,TLS 1.3,X25519MLKEM768 (post-quantum hybrid),RSA-2048,
+visa.co.uk,QUANTUM-SAFE,TLS 1.3,X25519MLKEM768 (post-quantum hybrid),ECDSA (secp256r1),
+gov.uk,QUANTUM-SAFE,TLS 1.3,X25519MLKEM768 (post-quantum hybrid),RSA-2048,
+nhs.uk,AT RISK (old TLS 1.2),TLS 1.2,classical (TLS 1.2 ECDHE/RSA),RSA-2048,
+warwick.ac.uk,AT RISK,TLS 1.3,X25519 (classical),RSA-2048,
